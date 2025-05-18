@@ -4,4 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastparquet>=2024.11.0",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.7",
+    "lxml>=5.4.0",
+    "pandas>=2.2.3",
+    "requests>=2.32.3",
+    "ruff>=0.11.7",
+    "tqdm>=4.67.1",
+]
+
